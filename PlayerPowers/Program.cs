@@ -34,10 +34,9 @@ namespace PlayerPowers
                     else
                         continue;
                 }
-                //if ((MyClass & Perks.Stealth) == Perks.Stealth 
-                //&& (MyClass & Perks.DoubleJump) == Perks.DoubleJump)
+                
                 if ((playersPowers[i] & Powers.Fly) == Powers.Fly
-                    && ((playersPowers[i] & Powers.SuperStrength)== Powers.SuperStrength))
+                    && ((playersPowers[i] & Powers.SuperStrength) == Powers.SuperStrength))
                 {
                     Console.WriteLine("Flying radiation");
                 }
