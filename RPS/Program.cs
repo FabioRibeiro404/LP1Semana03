@@ -51,9 +51,9 @@ namespace RPS
                 result = GameStatus.Draw;
                 return (int)result;
             }
-            if (((player1 == "Rock") && (player2 == "Scissors")) ||
-                ((player1 == "Scissors") && (player2 == "Paper")) ||
-                ((player1 == "Paper") && (player2 == "Rock")))
+            else if (((P1Play == GameItem.Rock) && (P2Play == GameItem.Scissors)) ||
+                ((P1Play == GameItem.Scissors) && (P2Play == GameItem.Paper)) ||
+                ((P1Play == GameItem.Paper) && (P2Play == GameItem.Rock)))
             {
                 result = GameStatus.Player1Wins;
                 return (int)result;
