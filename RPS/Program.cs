@@ -2,21 +2,7 @@
 
 namespace RPS
 {
-    
-    enum GameItem
-    {
-        Rock = 0,
-        Paper = 1,
-        Scissors = 2
-    };
 
-    
-    enum GameStatus
-    {
-        Draw = 0,
-        Player1Wins = 1,
-        Player2Wins = 2
-    };
     class Program
     {
         private static void Main(string[] args)
